@@ -1,10 +1,7 @@
+import AppRoutes from "./routes/AppRoutes";
 
-const App = () => {
-  return (
-    <div>
-      <h1>Zynvex</h1>
-    </div>
-  )
+function App() {
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
