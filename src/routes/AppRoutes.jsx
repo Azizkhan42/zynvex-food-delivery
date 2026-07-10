@@ -26,6 +26,7 @@ const AppRoutes = () => {
           <Route path="/restaurant/:id" element={<Restaurant />} />
 
           <Route path="/checkout" element={<Checkout />} />
+          
         </Route>
 
       </Routes>
