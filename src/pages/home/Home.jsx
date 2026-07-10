@@ -1,30 +1,20 @@
 import Container from "../../components/common/Container";
+import Logo from "../../components/common/Logo";
+import SearchBar from "../../components/ui/SearchBar";
 import Button from "../../components/ui/Button";
 
 const Home = () => {
   return (
-    <Container className="py-10">
-      <h1 className="mb-6 text-4xl font-bold">
-        Zynvex Food Delivery
-      </h1>
+    <Container className="py-10 space-y-8">
+      <Logo />
 
-      <div className="flex flex-wrap gap-4">
-        <Button>Primary</Button>
+      <SearchBar />
 
-        <Button variant="secondary">
-          Secondary
-        </Button>
+      <div className="flex gap-4">
+        <Button>Login</Button>
 
         <Button variant="outline">
-          Outline
-        </Button>
-
-        <Button variant="success">
-          Success
-        </Button>
-
-        <Button variant="danger">
-          Danger
+          Register
         </Button>
       </div>
     </Container>

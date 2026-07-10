@@ -35,7 +35,7 @@ const Button = ({
       className={`
         rounded-[var(--radius-md)]
         font-medium
-        transition-all
+        transition-color
         duration-200
         cursor-pointer
         disabled:opacity-50
