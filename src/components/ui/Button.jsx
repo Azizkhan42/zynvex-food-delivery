@@ -1,9 +1,6 @@
 const Button = ({
   children,
   variant = "primary",
-  size = "md",
-  type = "button",
-  disabled = false,
   className = "",
   ...props
 }) => {
@@ -12,38 +9,18 @@ const Button = ({
       "bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-hover)]",
 
     secondary:
-      "bg-white border border-gray-300 text-gray-800 hover:bg-gray-100",
+      "bg-gray-900 text-white hover:bg-black",
 
     outline:
-      "border border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-orange-50",
+      "border border-gray-300 bg-white hover:bg-gray-100",
 
-    danger: "bg-red-500 text-white hover:bg-red-600",
-
-    success: "bg-green-500 text-white hover:bg-green-600",
-  };
-
-  const sizes = {
-    sm: "px-4 py-2 text-sm",
-    md: "px-5 py-3 text-base",
-    lg: "px-7 py-4 text-lg",
+    ghost:
+      "hover:bg-gray-100",
   };
 
   return (
     <button
-      type={type}
-      disabled={disabled}
-      className={`
-        rounded-[var(--radius-md)]
-        font-medium
-        transition-color
-        duration-200
-        cursor-pointer
-        disabled:opacity-50
-        disabled:cursor-not-allowed
-        ${variants[variant]}
-        ${sizes[size]}
-        ${className}
-      `}
+      className={`rounded-2xl px-6 py-3 font-semibold transition-all duration-300 hover:scale-[1.03] active:scale-95 ${variants[variant]} ${className}`}
       {...props}
     >
       {children}

@@ -1,19 +1,19 @@
 import Container from "../../components/common/Container";
 
-const Offers = () => {
+const Restaurants = () => {
   return (
     <section className="min-h-screen bg-gray-50 py-20">
       <Container>
         <h1 className="text-5xl font-black text-gray-900">
-          Offers
+          Restaurants
         </h1>
 
         <p className="mt-4 text-lg text-gray-500">
-          Today's best food offers.
+          Browse all restaurants.
         </p>
       </Container>
     </section>
   );
 };
 
-export default Offers;
+export default Restaurants;
