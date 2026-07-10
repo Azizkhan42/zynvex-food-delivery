@@ -36,10 +36,10 @@
 
 html {
   scroll-behavior: smooth;
-} */
+} 
 
-body {
+/* body {
   background: var(--color-background);
   color: var(--color-text);
   font-family: Inter, sans-serif;
-}
+} */
