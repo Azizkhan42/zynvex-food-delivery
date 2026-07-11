@@ -9,7 +9,7 @@ import Contact from "../pages/contact/Contacts";
 import Search from "../pages/search/Search";
 import Cart from "../pages/cart/Cart";
 import Profile from "../pages/profile/Profile";
-import Restaurant from "../pages/restaurant/Restaurants";
+import Restaurant from "../pages/restaurants/Restaurants";
 import Checkout from "../pages/checkout/Checkout";
 
 const AppRoutes = () => {
